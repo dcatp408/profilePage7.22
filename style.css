@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+}
+body {
+    font-family: "Roboto",sans-serif;
+
+}
+/* nav bar -------------------------------------------*/
+.nav {
+    display: flex;
+    background-color: grey;
+    align-items: center;
+    color:white;
+
+}
+
+.nav-title{
+    color: white;
+    margin-left: 150px;
+
+}
+.nav-links {
+    display: flex;
+    margin-right:30px;
+    align-items: center;
+    
+}
+.nav a {
+    color:white;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(22, 209, 209);
+    box-shadow: 10px 5px 5px black;
+    
+}
+
+.menu {
+    text-decoration: none;
+    padding: 50px;
+}
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+#signOut{
+    margin-right: 50px;
+}
+
+/* Profile box    ------------------------------------------*/
+#bluebox{
+    background-color: rgb(0, 102, 255);
+    height: 70px;
+    margin-bottom: 40px;
+
+}
+
+#user-circle{
+    height: 70px;
+    width: 70px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width:5px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+#gear{
+    height: 20px;
+    width: 20px;
+    color: blue;
+    padding-left: 15px;
+}
+#map{
+    height: 20px;
+    width: 15px;
+    padding-left: 15px;
+
+}
+#location{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+.row {
+    display: flex;
+    padding: 0px 200px;
+    
+}
+.col {
+    flex: 5;
+    margin: 40px;
+    border:2px solid darkgray;
+    
+    
+}
+.col-2 { 
+    flex: 2;
+    border:2px solid lightgray;
+    margin: 40px;
+
+}
+
+.col-3{
+    flex: 5;
+    border:2px solid lightgray;
+    margin: 40px;
+    
+}
+.col-4{
+    flex: 2; 
+    border:2px solid lightgray;
+    margin: 40px;
+    
+}
+
+h2 {
+    background-color: darkgray;
+    color:white;
+    text-align:center ;
+}
+.stack{
+    margin-left: 20px;
+}
+label {
+    font-size: 1.5rem; 
+}
+.profilePic {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.checkbtn {
+    height: 25px;
+    width: 25px;
+    justify-content: right;
+}

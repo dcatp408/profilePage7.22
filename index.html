@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Bar</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a class="menu" href="#">Home</a></li>
+            <li><a class="menu" href="#">My Profile</a></li>
+            <li><a class="menu" href="#">Find Connections</a></li>
+        </ul>
+        <div id="signOut"><button class="btn">Sign Out</button></div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="bluebox">
+                <img id="user-circle" src="./icons/user-circle.png" alt="user icon">
+            </div>
+            <h1>Duy Pham</h1>
+            <div id="location">
+                <img id="map" src="./icons/map-marker.png" alt="map marker">
+                <h3>San Jose</h3>
+            </div>
+            <p>Developer | Engineer | Problem Solver </p>
+            <p> Master of shadows and the Internet!</p>
+            <div id="teeth">
+                <img id="gear" src="./icons/gear.png" alt="gear">
+                <a href="#">edit profile</a>
+            </div>
+        </div>
+        <div class="col-2">
+            <h2>Connection Requests</h2>
+            <div id="connectRequest">
+                <div class="stack">
+                    <img class="profilePic" src="./images/todd-s.jpg" alt="photo of todd"><label>Todd E</label>
+                    <img class="checkbtn" src="./icons/accept-circle.png" alt="accept circle">
+                    <img class="checkbtn" src="./icons/close-circle.png" alt="close circle">
+                </div>
+                <div class="stack">
+                    <img class="profilePic" src="./images/phil-s.jpg" alt="photo of phil"><label>Phil K</label>
+                    <img class="checkbtn" src="./icons/accept-circle.png" alt="accept circle">
+                    <img class="checkbtn" src="./icons/close-circle.png" alt="close circle">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <h2>Education</h2>
+            <h1>Coding Dojo - Full Stack Bootcamp</h1>
+            <h3>Dec 2019 - Mar2020</h3>
+            <h4>Triple black belt in Python, MERIN, and C#....</h4>
+        </div>
+        <div class="col-4">
+            <h2>Your Requests</h2>
+            <div id="yourRequest">
+                <div class="stack">
+                    <img class="profilePic" src="./images/adrien-s.jpg" alt="photo of todd"> <label>Adrien D</label>
+                </div>
+                <div class="stack">
+                    <img class="profilePic" src="./images/anne-s.jpg" alt="accept circle"><label>Anne J</label>
+                </div>
+                <div class="stack">
+                    <img class="profilePic" src="./images/alayne-s.jpg" alt=" close circle"><label>Alayne T</label>
+                </div>
+                <div class="stack">
+                    <img class="profilePic" src="./images/arry-s.jpg" alt="photo of phil"><label>Arry Y</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
